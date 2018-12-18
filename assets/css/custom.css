@@ -1,0 +1,135 @@
+body {
+    background-color: #eeeeee;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.625;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.navbar-custom{
+    background-color: #fff;
+    min-height: 55px;
+    -webkit-box-shadow: 0 1px 6px rgba(57,73,76,0.35);
+    box-shadow: 0 1px 6px rgba(57,73,76,0.35);
+}
+
+.menu-sidebar-right {
+    width: 300px;
+    position: relative;
+    left: 0;
+    top: 80px;
+    bottom: 0;
+    background: inherit;
+    padding-right: 20px !important;
+    /*padding-left: 80px;*/
+}
+
+.menu-sidebar-left {
+    width: 300px;
+    position: relative;
+    right: 0;
+    top: 130px;
+    bottom: 0;
+    background: inherit;
+    padding-left: 20px;
+}
+
+.menu-sidebar-middle {
+
+    position: relative;
+    left: 0;
+    top: 80px;
+    bottom: 0;
+    background: inherit;
+    margin-bottom: 50px;
+    -webkit-box-flex: 0;
+}
+
+
+.ul.nav-pills.nav-stacked{
+    box-sizing: border-box;
+    color: rgb(34, 34, 34);
+    font-family: "Gotham SSm", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    line-height: 18.5667px;
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-left: 0px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="menu-sidebar-"] {
+        width: 100%;
+        position: relative;
+    }
+}
+
+.h7 {
+    font-size: 0.8rem;
+}
+
+.gedf-wrapper {
+    margin-top: 0.97rem;
+}
+
+@media (min-width: 992px) {
+    .gedf-main {
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+    .gedf-card {
+        margin-bottom: 2.77rem;
+    }
+}
+
+/**Reset Bootstrap*/
+.dropdown-toggle::after {
+    content: none;
+    display: none;
+}
+
+/* Set black background color, white text and some padding */
+
+footer {
+    background-color: #555;
+    color: white;
+    padding: 15px;
+}
+
+.row-bordered:after {
+    content: "";
+    width: 100%;
+    display: block;
+    border-bottom: 2px solid #ccc;
+    margin: 30px 0 0 5px;
+}
+
+.pull-right {
+@extend .float-right;
+}
+
+.pull-left {
+@extend .float-left;
+}
+
+.vertical-align-top
+{
+    box-sizing: border-box;
+    color: rgb(34, 34, 34);
+    display: inline-block;
+    font-family: "Gotham SSm", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    line-height: 18.5667px;
+    padding-right: 10px;
+    vertical-align: top;
+}
+
+.card-body pull-right {
+@extend .float-right;
+}
